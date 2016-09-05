@@ -1,9 +1,10 @@
 <html>
 	<head>
-		<title></title>
+		<title>Title here</title>
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<div>
+		<div class="inner">
 			<form action="index.php" method="post">
 				<ul id="login">
 					<li>
