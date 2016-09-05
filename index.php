@@ -1,14 +1,24 @@
 <html>
+	<head>
+		<title></title>
+	</head>
 	<body>
 		<div>
-			<ul>
-				<li>li1</li>
-				<li>li2</li>
-				<li>li3</li>
-				<li>li4</li>
-				<li>li5</li>
-				<li>li6</li>
-			</ul>
+			<form action="index.php" method="post">
+				<ul id="login">
+					<li>
+						username:<br>
+						<input type="text" name="username">
+					</li>
+					<li>
+						password:<br>
+						<input type="password" name="password">
+					</li>
+					<li>
+						<input type="submit" value="login">
+					</li>
+				</ul>
+			</form>
 		</div>
 	</body>
 </html>
